@@ -1,0 +1,956 @@
+{
+  "version": 1,
+  "cardImages": {
+    "1": {
+      "cardName": "Rookie Cadet",
+      "category": "operators",
+      "filename": "op_rookie_cadet.png",
+      "relativePath": "assets/cards/operators/op_rookie_cadet.png"
+    },
+    "2": {
+      "cardName": "Border Scout",
+      "category": "operators",
+      "filename": "op_border_scout.png",
+      "relativePath": "assets/cards/operators/op_border_scout.png"
+    },
+    "3": {
+      "cardName": "Patrol Officer",
+      "category": "operators",
+      "filename": "op_patrol_officer.png",
+      "relativePath": "assets/cards/operators/op_patrol_officer.png"
+    },
+    "4": {
+      "cardName": "Radio Dispatcher",
+      "category": "operators",
+      "filename": "op_radio_dispatcher.png",
+      "relativePath": "assets/cards/operators/op_radio_dispatcher.png"
+    },
+    "5": {
+      "cardName": "Nachtwacht",
+      "category": "operators",
+      "filename": "op_nachtwacht.png",
+      "relativePath": "assets/cards/operators/op_nachtwacht.png"
+    },
+    "6": {
+      "cardName": "Tactical Medic",
+      "category": "operators",
+      "filename": "op_tactical_medic.png",
+      "relativePath": "assets/cards/operators/op_tactical_medic.png"
+    },
+    "7": {
+      "cardName": "K9 Handler",
+      "category": "operators",
+      "filename": "op_k9_handler.png",
+      "relativePath": "assets/cards/operators/op_k9_handler.png"
+    },
+    "8": {
+      "cardName": "Crisis Negotiator",
+      "category": "operators",
+      "filename": "op_crisis_negotiator.png",
+      "relativePath": "assets/cards/operators/op_crisis_negotiator.png"
+    },
+    "9": {
+      "cardName": "Drone Specialist",
+      "category": "operators",
+      "filename": "op_drone_specialist.png",
+      "relativePath": "assets/cards/operators/op_drone_specialist.png"
+    },
+    "10": {
+      "cardName": "Recon Leader",
+      "category": "operators",
+      "filename": "op_recon_leader.png",
+      "relativePath": "assets/cards/operators/op_recon_leader.png"
+    },
+    "11": {
+      "cardName": "Iron Sergeant",
+      "category": "operators",
+      "filename": "op_iron_sergeant.png",
+      "relativePath": "assets/cards/operators/op_iron_sergeant.png"
+    },
+    "12": {
+      "cardName": "Breach Specialist",
+      "category": "operators",
+      "filename": "op_breach_specialist.png",
+      "relativePath": "assets/cards/operators/op_breach_specialist.png"
+    },
+    "13": {
+      "cardName": "Phantom Operator",
+      "category": "operators",
+      "filename": "op_phantom_operator.png",
+      "relativePath": "assets/cards/operators/op_phantom_operator.png"
+    },
+    "14": {
+      "cardName": "Shadow Commander",
+      "category": "operators",
+      "filename": "op_shadow_commander.png",
+      "relativePath": "assets/cards/operators/op_shadow_commander.png"
+    },
+    "15": {
+      "cardName": "Command Unit Alpha",
+      "category": "operators",
+      "filename": "op_command_unit_alpha.png",
+      "relativePath": "assets/cards/operators/op_command_unit_alpha.png"
+    },
+    "16": {
+      "cardName": "Ghost Protocol Six",
+      "category": "operators",
+      "filename": "op_ghost_protocol_six.png",
+      "relativePath": "assets/cards/operators/op_ghost_protocol_six.png"
+    },
+    "17": {
+      "cardName": "Tactical Patrol SUV",
+      "category": "vehicles",
+      "filename": "veh_tactical_patrol_suv.png",
+      "relativePath": "assets/cards/vehicles/veh_tactical_patrol_suv.png"
+    },
+    "18": {
+      "cardName": "Standard Patrol Car",
+      "category": "vehicles",
+      "filename": "veh_standard_patrol_car.png",
+      "relativePath": "assets/cards/vehicles/veh_standard_patrol_car.png"
+    },
+    "19": {
+      "cardName": "Utility Pickup",
+      "category": "vehicles",
+      "filename": "veh_utility_pickup.png",
+      "relativePath": "assets/cards/vehicles/veh_utility_pickup.png"
+    },
+    "20": {
+      "cardName": "Border Scout Bike",
+      "category": "vehicles",
+      "filename": "veh_border_scout_bike.png",
+      "relativePath": "assets/cards/vehicles/veh_border_scout_bike.png"
+    },
+    "21": {
+      "cardName": "Armored Response Van",
+      "category": "vehicles",
+      "filename": "veh_armored_response_van.png",
+      "relativePath": "assets/cards/vehicles/veh_armored_response_van.png"
+    },
+    "22": {
+      "cardName": "Night Recon Bike",
+      "category": "vehicles",
+      "filename": "veh_night_recon_bike.png",
+      "relativePath": "assets/cards/vehicles/veh_night_recon_bike.png"
+    },
+    "23": {
+      "cardName": "Desert Utility Truck",
+      "category": "vehicles",
+      "filename": "veh_desert_utility_truck.png",
+      "relativePath": "assets/cards/vehicles/veh_desert_utility_truck.png"
+    },
+    "24": {
+      "cardName": "Rapid Intercept Boat",
+      "category": "vehicles",
+      "filename": "veh_rapid_intercept_boat.png",
+      "relativePath": "assets/cards/vehicles/veh_rapid_intercept_boat.png"
+    },
+    "25": {
+      "cardName": "Mobile Radar Unit",
+      "category": "vehicles",
+      "filename": "veh_mobile_radar_unit.png",
+      "relativePath": "assets/cards/vehicles/veh_mobile_radar_unit.png"
+    },
+    "26": {
+      "cardName": "Heavy Transport Carrier",
+      "category": "vehicles",
+      "filename": "veh_heavy_transport_carrier.png",
+      "relativePath": "assets/cards/vehicles/veh_heavy_transport_carrier.png"
+    },
+    "27": {
+      "cardName": "Stealth Recon Drone",
+      "category": "vehicles",
+      "filename": "veh_stealth_recon_drone.png",
+      "relativePath": "assets/cards/vehicles/veh_stealth_recon_drone.png"
+    },
+    "28": {
+      "cardName": "Command Helicopter",
+      "category": "vehicles",
+      "filename": "veh_command_helicopter.png",
+      "relativePath": "assets/cards/vehicles/veh_command_helicopter.png"
+    },
+    "29": {
+      "cardName": "Arctic Snow Crawler",
+      "category": "vehicles",
+      "filename": "veh_arctic_snow_crawler.png",
+      "relativePath": "assets/cards/vehicles/veh_arctic_snow_crawler.png"
+    },
+    "30": {
+      "cardName": "Black Horizon Aircraft",
+      "category": "vehicles",
+      "filename": "veh_black_horizon_aircraft.png",
+      "relativePath": "assets/cards/vehicles/veh_black_horizon_aircraft.png"
+    },
+    "31": {
+      "cardName": "Phantom Stealth Chopper",
+      "category": "vehicles",
+      "filename": "veh_phantom_stealth_chopper.png",
+      "relativePath": "assets/cards/vehicles/veh_phantom_stealth_chopper.png"
+    },
+    "32": {
+      "cardName": "Horizon-Class Carrier",
+      "category": "vehicles",
+      "filename": "veh_horizon_class_carrier.png",
+      "relativePath": "assets/cards/vehicles/veh_horizon_class_carrier.png"
+    },
+    "33": {
+      "cardName": "Tactical Radio",
+      "category": "gear",
+      "filename": "gear_tactical_radio.png",
+      "relativePath": "assets/cards/gear/gear_tactical_radio.png"
+    },
+    "34": {
+      "cardName": "Standard Issue Flashlight",
+      "category": "gear",
+      "filename": "gear_standard_issue_flashlight.png",
+      "relativePath": "assets/cards/gear/gear_standard_issue_flashlight.png"
+    },
+    "35": {
+      "cardName": "Field Notebook",
+      "category": "gear",
+      "filename": "gear_field_notebook.png",
+      "relativePath": "assets/cards/gear/gear_field_notebook.png"
+    },
+    "36": {
+      "cardName": "Basic Compass Kit",
+      "category": "gear",
+      "filename": "gear_basic_compass_kit.png",
+      "relativePath": "assets/cards/gear/gear_basic_compass_kit.png"
+    },
+    "37": {
+      "cardName": "Thermal Goggles",
+      "category": "gear",
+      "filename": "gear_thermal_goggles.png",
+      "relativePath": "assets/cards/gear/gear_thermal_goggles.png"
+    },
+    "38": {
+      "cardName": "Reinforced Vest",
+      "category": "gear",
+      "filename": "gear_reinforced_vest.png",
+      "relativePath": "assets/cards/gear/gear_reinforced_vest.png"
+    },
+    "39": {
+      "cardName": "Field Medkit",
+      "category": "gear",
+      "filename": "gear_field_medkit.png",
+      "relativePath": "assets/cards/gear/gear_field_medkit.png"
+    },
+    "40": {
+      "cardName": "Digital Map Console",
+      "category": "gear",
+      "filename": "gear_digital_map_console.png",
+      "relativePath": "assets/cards/gear/gear_digital_map_console.png"
+    },
+    "41": {
+      "cardName": "Night Vision Rig",
+      "category": "gear",
+      "filename": "gear_night_vision_rig.png",
+      "relativePath": "assets/cards/gear/gear_night_vision_rig.png"
+    },
+    "42": {
+      "cardName": "Secure Evidence Kit",
+      "category": "gear",
+      "filename": "gear_secure_evidence_kit.png",
+      "relativePath": "assets/cards/gear/gear_secure_evidence_kit.png"
+    },
+    "43": {
+      "cardName": "Combat Flashlight",
+      "category": "gear",
+      "filename": "gear_combat_flashlight.png",
+      "relativePath": "assets/cards/gear/gear_combat_flashlight.png"
+    },
+    "44": {
+      "cardName": "Recon Tablet",
+      "category": "gear",
+      "filename": "gear_recon_tablet.png",
+      "relativePath": "assets/cards/gear/gear_recon_tablet.png"
+    },
+    "45": {
+      "cardName": "Signal Jammer",
+      "category": "gear",
+      "filename": "gear_signal_jammer.png",
+      "relativePath": "assets/cards/gear/gear_signal_jammer.png"
+    },
+    "46": {
+      "cardName": "Encrypted Comm Array",
+      "category": "gear",
+      "filename": "gear_encrypted_comm_array.png",
+      "relativePath": "assets/cards/gear/gear_encrypted_comm_array.png"
+    },
+    "47": {
+      "cardName": "Prototype HUD Visor",
+      "category": "gear",
+      "filename": "gear_prototype_hud_visor.png",
+      "relativePath": "assets/cards/gear/gear_prototype_hud_visor.png"
+    },
+    "48": {
+      "cardName": "Aegis Shield Module",
+      "category": "gear",
+      "filename": "gear_aegis_shield_module.png",
+      "relativePath": "assets/cards/gear/gear_aegis_shield_module.png"
+    },
+    "49": {
+      "cardName": "Border Checkpoint",
+      "category": "locations",
+      "filename": "loc_border_checkpoint.png",
+      "relativePath": "assets/cards/locations/loc_border_checkpoint.png"
+    },
+    "50": {
+      "cardName": "Local Precinct House",
+      "category": "locations",
+      "filename": "loc_local_precinct_house.png",
+      "relativePath": "assets/cards/locations/loc_local_precinct_house.png"
+    },
+    "51": {
+      "cardName": "Highway Rest Outpost",
+      "category": "locations",
+      "filename": "loc_highway_rest_outpost.png",
+      "relativePath": "assets/cards/locations/loc_highway_rest_outpost.png"
+    },
+    "52": {
+      "cardName": "Coastal Watch Point",
+      "category": "locations",
+      "filename": "loc_coastal_watch_point.png",
+      "relativePath": "assets/cards/locations/loc_coastal_watch_point.png"
+    },
+    "53": {
+      "cardName": "Night Air Terminal",
+      "category": "locations",
+      "filename": "loc_night_air_terminal.png",
+      "relativePath": "assets/cards/locations/loc_night_air_terminal.png"
+    },
+    "54": {
+      "cardName": "Training Compound",
+      "category": "locations",
+      "filename": "loc_training_compound.png",
+      "relativePath": "assets/cards/locations/loc_training_compound.png"
+    },
+    "55": {
+      "cardName": "Storm Coast Outpost",
+      "category": "locations",
+      "filename": "loc_storm_coast_outpost.png",
+      "relativePath": "assets/cards/locations/loc_storm_coast_outpost.png"
+    },
+    "56": {
+      "cardName": "Urban Response Zone",
+      "category": "locations",
+      "filename": "loc_urban_response_zone.png",
+      "relativePath": "assets/cards/locations/loc_urban_response_zone.png"
+    },
+    "57": {
+      "cardName": "Forest Exercise Camp",
+      "category": "locations",
+      "filename": "loc_forest_exercise_camp.png",
+      "relativePath": "assets/cards/locations/loc_forest_exercise_camp.png"
+    },
+    "58": {
+      "cardName": "Mountain Watchtower",
+      "category": "locations",
+      "filename": "loc_mountain_watchtower.png",
+      "relativePath": "assets/cards/locations/loc_mountain_watchtower.png"
+    },
+    "59": {
+      "cardName": "Underground Command Room",
+      "category": "locations",
+      "filename": "loc_underground_command_room.png",
+      "relativePath": "assets/cards/locations/loc_underground_command_room.png"
+    },
+    "60": {
+      "cardName": "Harbor Patrol Base",
+      "category": "locations",
+      "filename": "loc_harbor_patrol_base.png",
+      "relativePath": "assets/cards/locations/loc_harbor_patrol_base.png"
+    },
+    "61": {
+      "cardName": "Arctic Surveillance Station",
+      "category": "locations",
+      "filename": "loc_arctic_surveillance_station.png",
+      "relativePath": "assets/cards/locations/loc_arctic_surveillance_station.png"
+    },
+    "62": {
+      "cardName": "Hidden Valley Bunker",
+      "category": "locations",
+      "filename": "loc_hidden_valley_bunker.png",
+      "relativePath": "assets/cards/locations/loc_hidden_valley_bunker.png"
+    },
+    "63": {
+      "cardName": "Black Site Zero",
+      "category": "locations",
+      "filename": "loc_black_site_zero.png",
+      "relativePath": "assets/cards/locations/loc_black_site_zero.png"
+    },
+    "64": {
+      "cardName": "The Last Outpost",
+      "category": "locations",
+      "filename": "loc_the_last_outpost.png",
+      "relativePath": "assets/cards/locations/loc_the_last_outpost.png"
+    },
+    "65": {
+      "cardName": "Quiet Shift",
+      "category": "events",
+      "filename": "evt_quiet_shift.png",
+      "relativePath": "assets/cards/events/evt_quiet_shift.png"
+    },
+    "66": {
+      "cardName": "Routine Patrol",
+      "category": "events",
+      "filename": "evt_routine_patrol.png",
+      "relativePath": "assets/cards/events/evt_routine_patrol.png"
+    },
+    "67": {
+      "cardName": "Paperwork Day",
+      "category": "events",
+      "filename": "evt_paperwork_day.png",
+      "relativePath": "assets/cards/events/evt_paperwork_day.png"
+    },
+    "68": {
+      "cardName": "Radio Check",
+      "category": "events",
+      "filename": "evt_radio_check.png",
+      "relativePath": "assets/cards/events/evt_radio_check.png"
+    },
+    "69": {
+      "cardName": "Perfect Shift",
+      "category": "events",
+      "filename": "evt_perfect_shift.png",
+      "relativePath": "assets/cards/events/evt_perfect_shift.png"
+    },
+    "70": {
+      "cardName": "Night Alarm",
+      "category": "events",
+      "filename": "evt_night_alarm.png",
+      "relativePath": "assets/cards/events/evt_night_alarm.png"
+    },
+    "71": {
+      "cardName": "Training Complete",
+      "category": "events",
+      "filename": "evt_training_complete.png",
+      "relativePath": "assets/cards/events/evt_training_complete.png"
+    },
+    "72": {
+      "cardName": "Emergency Response",
+      "category": "events",
+      "filename": "evt_emergency_response.png",
+      "relativePath": "assets/cards/events/evt_emergency_response.png"
+    },
+    "73": {
+      "cardName": "Tactical Lockdown",
+      "category": "events",
+      "filename": "evt_tactical_lockdown.png",
+      "relativePath": "assets/cards/events/evt_tactical_lockdown.png"
+    },
+    "74": {
+      "cardName": "Code Amber",
+      "category": "events",
+      "filename": "evt_code_amber.png",
+      "relativePath": "assets/cards/events/evt_code_amber.png"
+    },
+    "75": {
+      "cardName": "Hidden Intel",
+      "category": "events",
+      "filename": "evt_hidden_intel.png",
+      "relativePath": "assets/cards/events/evt_hidden_intel.png"
+    },
+    "76": {
+      "cardName": "Operation Sunrise",
+      "category": "events",
+      "filename": "evt_operation_sunrise.png",
+      "relativePath": "assets/cards/events/evt_operation_sunrise.png"
+    },
+    "77": {
+      "cardName": "Blackout Protocol",
+      "category": "events",
+      "filename": "evt_blackout_protocol.png",
+      "relativePath": "assets/cards/events/evt_blackout_protocol.png"
+    },
+    "78": {
+      "cardName": "Final Extraction",
+      "category": "events",
+      "filename": "evt_final_extraction.png",
+      "relativePath": "assets/cards/events/evt_final_extraction.png"
+    },
+    "79": {
+      "cardName": "Zero Hour",
+      "category": "events",
+      "filename": "evt_zero_hour.png",
+      "relativePath": "assets/cards/events/evt_zero_hour.png"
+    },
+    "80": {
+      "cardName": "Last Light Protocol",
+      "category": "events",
+      "filename": "evt_last_light_protocol.png",
+      "relativePath": "assets/cards/events/evt_last_light_protocol.png"
+    }
+  },
+  "categories": {
+    "operators": [
+      {
+        "cardName": "Rookie Cadet",
+        "filename": "op_rookie_cadet.png",
+        "relativePath": "assets/cards/operators/op_rookie_cadet.png"
+      },
+      {
+        "cardName": "Border Scout",
+        "filename": "op_border_scout.png",
+        "relativePath": "assets/cards/operators/op_border_scout.png"
+      },
+      {
+        "cardName": "Patrol Officer",
+        "filename": "op_patrol_officer.png",
+        "relativePath": "assets/cards/operators/op_patrol_officer.png"
+      },
+      {
+        "cardName": "Radio Dispatcher",
+        "filename": "op_radio_dispatcher.png",
+        "relativePath": "assets/cards/operators/op_radio_dispatcher.png"
+      },
+      {
+        "cardName": "Nachtwacht",
+        "filename": "op_nachtwacht.png",
+        "relativePath": "assets/cards/operators/op_nachtwacht.png"
+      },
+      {
+        "cardName": "Tactical Medic",
+        "filename": "op_tactical_medic.png",
+        "relativePath": "assets/cards/operators/op_tactical_medic.png"
+      },
+      {
+        "cardName": "K9 Handler",
+        "filename": "op_k9_handler.png",
+        "relativePath": "assets/cards/operators/op_k9_handler.png"
+      },
+      {
+        "cardName": "Crisis Negotiator",
+        "filename": "op_crisis_negotiator.png",
+        "relativePath": "assets/cards/operators/op_crisis_negotiator.png"
+      },
+      {
+        "cardName": "Drone Specialist",
+        "filename": "op_drone_specialist.png",
+        "relativePath": "assets/cards/operators/op_drone_specialist.png"
+      },
+      {
+        "cardName": "Recon Leader",
+        "filename": "op_recon_leader.png",
+        "relativePath": "assets/cards/operators/op_recon_leader.png"
+      },
+      {
+        "cardName": "Iron Sergeant",
+        "filename": "op_iron_sergeant.png",
+        "relativePath": "assets/cards/operators/op_iron_sergeant.png"
+      },
+      {
+        "cardName": "Breach Specialist",
+        "filename": "op_breach_specialist.png",
+        "relativePath": "assets/cards/operators/op_breach_specialist.png"
+      },
+      {
+        "cardName": "Phantom Operator",
+        "filename": "op_phantom_operator.png",
+        "relativePath": "assets/cards/operators/op_phantom_operator.png"
+      },
+      {
+        "cardName": "Shadow Commander",
+        "filename": "op_shadow_commander.png",
+        "relativePath": "assets/cards/operators/op_shadow_commander.png"
+      },
+      {
+        "cardName": "Command Unit Alpha",
+        "filename": "op_command_unit_alpha.png",
+        "relativePath": "assets/cards/operators/op_command_unit_alpha.png"
+      },
+      {
+        "cardName": "Ghost Protocol Six",
+        "filename": "op_ghost_protocol_six.png",
+        "relativePath": "assets/cards/operators/op_ghost_protocol_six.png"
+      }
+    ],
+    "vehicles": [
+      {
+        "cardName": "Tactical Patrol SUV",
+        "filename": "veh_tactical_patrol_suv.png",
+        "relativePath": "assets/cards/vehicles/veh_tactical_patrol_suv.png"
+      },
+      {
+        "cardName": "Standard Patrol Car",
+        "filename": "veh_standard_patrol_car.png",
+        "relativePath": "assets/cards/vehicles/veh_standard_patrol_car.png"
+      },
+      {
+        "cardName": "Utility Pickup",
+        "filename": "veh_utility_pickup.png",
+        "relativePath": "assets/cards/vehicles/veh_utility_pickup.png"
+      },
+      {
+        "cardName": "Border Scout Bike",
+        "filename": "veh_border_scout_bike.png",
+        "relativePath": "assets/cards/vehicles/veh_border_scout_bike.png"
+      },
+      {
+        "cardName": "Armored Response Van",
+        "filename": "veh_armored_response_van.png",
+        "relativePath": "assets/cards/vehicles/veh_armored_response_van.png"
+      },
+      {
+        "cardName": "Night Recon Bike",
+        "filename": "veh_night_recon_bike.png",
+        "relativePath": "assets/cards/vehicles/veh_night_recon_bike.png"
+      },
+      {
+        "cardName": "Desert Utility Truck",
+        "filename": "veh_desert_utility_truck.png",
+        "relativePath": "assets/cards/vehicles/veh_desert_utility_truck.png"
+      },
+      {
+        "cardName": "Rapid Intercept Boat",
+        "filename": "veh_rapid_intercept_boat.png",
+        "relativePath": "assets/cards/vehicles/veh_rapid_intercept_boat.png"
+      },
+      {
+        "cardName": "Mobile Radar Unit",
+        "filename": "veh_mobile_radar_unit.png",
+        "relativePath": "assets/cards/vehicles/veh_mobile_radar_unit.png"
+      },
+      {
+        "cardName": "Heavy Transport Carrier",
+        "filename": "veh_heavy_transport_carrier.png",
+        "relativePath": "assets/cards/vehicles/veh_heavy_transport_carrier.png"
+      },
+      {
+        "cardName": "Stealth Recon Drone",
+        "filename": "veh_stealth_recon_drone.png",
+        "relativePath": "assets/cards/vehicles/veh_stealth_recon_drone.png"
+      },
+      {
+        "cardName": "Command Helicopter",
+        "filename": "veh_command_helicopter.png",
+        "relativePath": "assets/cards/vehicles/veh_command_helicopter.png"
+      },
+      {
+        "cardName": "Arctic Snow Crawler",
+        "filename": "veh_arctic_snow_crawler.png",
+        "relativePath": "assets/cards/vehicles/veh_arctic_snow_crawler.png"
+      },
+      {
+        "cardName": "Black Horizon Aircraft",
+        "filename": "veh_black_horizon_aircraft.png",
+        "relativePath": "assets/cards/vehicles/veh_black_horizon_aircraft.png"
+      },
+      {
+        "cardName": "Phantom Stealth Chopper",
+        "filename": "veh_phantom_stealth_chopper.png",
+        "relativePath": "assets/cards/vehicles/veh_phantom_stealth_chopper.png"
+      },
+      {
+        "cardName": "Horizon-Class Carrier",
+        "filename": "veh_horizon_class_carrier.png",
+        "relativePath": "assets/cards/vehicles/veh_horizon_class_carrier.png"
+      }
+    ],
+    "gear": [
+      {
+        "cardName": "Tactical Radio",
+        "filename": "gear_tactical_radio.png",
+        "relativePath": "assets/cards/gear/gear_tactical_radio.png"
+      },
+      {
+        "cardName": "Standard Issue Flashlight",
+        "filename": "gear_standard_issue_flashlight.png",
+        "relativePath": "assets/cards/gear/gear_standard_issue_flashlight.png"
+      },
+      {
+        "cardName": "Field Notebook",
+        "filename": "gear_field_notebook.png",
+        "relativePath": "assets/cards/gear/gear_field_notebook.png"
+      },
+      {
+        "cardName": "Basic Compass Kit",
+        "filename": "gear_basic_compass_kit.png",
+        "relativePath": "assets/cards/gear/gear_basic_compass_kit.png"
+      },
+      {
+        "cardName": "Thermal Goggles",
+        "filename": "gear_thermal_goggles.png",
+        "relativePath": "assets/cards/gear/gear_thermal_goggles.png"
+      },
+      {
+        "cardName": "Reinforced Vest",
+        "filename": "gear_reinforced_vest.png",
+        "relativePath": "assets/cards/gear/gear_reinforced_vest.png"
+      },
+      {
+        "cardName": "Field Medkit",
+        "filename": "gear_field_medkit.png",
+        "relativePath": "assets/cards/gear/gear_field_medkit.png"
+      },
+      {
+        "cardName": "Digital Map Console",
+        "filename": "gear_digital_map_console.png",
+        "relativePath": "assets/cards/gear/gear_digital_map_console.png"
+      },
+      {
+        "cardName": "Night Vision Rig",
+        "filename": "gear_night_vision_rig.png",
+        "relativePath": "assets/cards/gear/gear_night_vision_rig.png"
+      },
+      {
+        "cardName": "Secure Evidence Kit",
+        "filename": "gear_secure_evidence_kit.png",
+        "relativePath": "assets/cards/gear/gear_secure_evidence_kit.png"
+      },
+      {
+        "cardName": "Combat Flashlight",
+        "filename": "gear_combat_flashlight.png",
+        "relativePath": "assets/cards/gear/gear_combat_flashlight.png"
+      },
+      {
+        "cardName": "Recon Tablet",
+        "filename": "gear_recon_tablet.png",
+        "relativePath": "assets/cards/gear/gear_recon_tablet.png"
+      },
+      {
+        "cardName": "Signal Jammer",
+        "filename": "gear_signal_jammer.png",
+        "relativePath": "assets/cards/gear/gear_signal_jammer.png"
+      },
+      {
+        "cardName": "Encrypted Comm Array",
+        "filename": "gear_encrypted_comm_array.png",
+        "relativePath": "assets/cards/gear/gear_encrypted_comm_array.png"
+      },
+      {
+        "cardName": "Prototype HUD Visor",
+        "filename": "gear_prototype_hud_visor.png",
+        "relativePath": "assets/cards/gear/gear_prototype_hud_visor.png"
+      },
+      {
+        "cardName": "Aegis Shield Module",
+        "filename": "gear_aegis_shield_module.png",
+        "relativePath": "assets/cards/gear/gear_aegis_shield_module.png"
+      }
+    ],
+    "locations": [
+      {
+        "cardName": "Border Checkpoint",
+        "filename": "loc_border_checkpoint.png",
+        "relativePath": "assets/cards/locations/loc_border_checkpoint.png"
+      },
+      {
+        "cardName": "Local Precinct House",
+        "filename": "loc_local_precinct_house.png",
+        "relativePath": "assets/cards/locations/loc_local_precinct_house.png"
+      },
+      {
+        "cardName": "Highway Rest Outpost",
+        "filename": "loc_highway_rest_outpost.png",
+        "relativePath": "assets/cards/locations/loc_highway_rest_outpost.png"
+      },
+      {
+        "cardName": "Coastal Watch Point",
+        "filename": "loc_coastal_watch_point.png",
+        "relativePath": "assets/cards/locations/loc_coastal_watch_point.png"
+      },
+      {
+        "cardName": "Night Air Terminal",
+        "filename": "loc_night_air_terminal.png",
+        "relativePath": "assets/cards/locations/loc_night_air_terminal.png"
+      },
+      {
+        "cardName": "Training Compound",
+        "filename": "loc_training_compound.png",
+        "relativePath": "assets/cards/locations/loc_training_compound.png"
+      },
+      {
+        "cardName": "Storm Coast Outpost",
+        "filename": "loc_storm_coast_outpost.png",
+        "relativePath": "assets/cards/locations/loc_storm_coast_outpost.png"
+      },
+      {
+        "cardName": "Urban Response Zone",
+        "filename": "loc_urban_response_zone.png",
+        "relativePath": "assets/cards/locations/loc_urban_response_zone.png"
+      },
+      {
+        "cardName": "Forest Exercise Camp",
+        "filename": "loc_forest_exercise_camp.png",
+        "relativePath": "assets/cards/locations/loc_forest_exercise_camp.png"
+      },
+      {
+        "cardName": "Mountain Watchtower",
+        "filename": "loc_mountain_watchtower.png",
+        "relativePath": "assets/cards/locations/loc_mountain_watchtower.png"
+      },
+      {
+        "cardName": "Underground Command Room",
+        "filename": "loc_underground_command_room.png",
+        "relativePath": "assets/cards/locations/loc_underground_command_room.png"
+      },
+      {
+        "cardName": "Harbor Patrol Base",
+        "filename": "loc_harbor_patrol_base.png",
+        "relativePath": "assets/cards/locations/loc_harbor_patrol_base.png"
+      },
+      {
+        "cardName": "Arctic Surveillance Station",
+        "filename": "loc_arctic_surveillance_station.png",
+        "relativePath": "assets/cards/locations/loc_arctic_surveillance_station.png"
+      },
+      {
+        "cardName": "Hidden Valley Bunker",
+        "filename": "loc_hidden_valley_bunker.png",
+        "relativePath": "assets/cards/locations/loc_hidden_valley_bunker.png"
+      },
+      {
+        "cardName": "Black Site Zero",
+        "filename": "loc_black_site_zero.png",
+        "relativePath": "assets/cards/locations/loc_black_site_zero.png"
+      },
+      {
+        "cardName": "The Last Outpost",
+        "filename": "loc_the_last_outpost.png",
+        "relativePath": "assets/cards/locations/loc_the_last_outpost.png"
+      }
+    ],
+    "events": [
+      {
+        "cardName": "Quiet Shift",
+        "filename": "evt_quiet_shift.png",
+        "relativePath": "assets/cards/events/evt_quiet_shift.png"
+      },
+      {
+        "cardName": "Routine Patrol",
+        "filename": "evt_routine_patrol.png",
+        "relativePath": "assets/cards/events/evt_routine_patrol.png"
+      },
+      {
+        "cardName": "Paperwork Day",
+        "filename": "evt_paperwork_day.png",
+        "relativePath": "assets/cards/events/evt_paperwork_day.png"
+      },
+      {
+        "cardName": "Radio Check",
+        "filename": "evt_radio_check.png",
+        "relativePath": "assets/cards/events/evt_radio_check.png"
+      },
+      {
+        "cardName": "Perfect Shift",
+        "filename": "evt_perfect_shift.png",
+        "relativePath": "assets/cards/events/evt_perfect_shift.png"
+      },
+      {
+        "cardName": "Night Alarm",
+        "filename": "evt_night_alarm.png",
+        "relativePath": "assets/cards/events/evt_night_alarm.png"
+      },
+      {
+        "cardName": "Training Complete",
+        "filename": "evt_training_complete.png",
+        "relativePath": "assets/cards/events/evt_training_complete.png"
+      },
+      {
+        "cardName": "Emergency Response",
+        "filename": "evt_emergency_response.png",
+        "relativePath": "assets/cards/events/evt_emergency_response.png"
+      },
+      {
+        "cardName": "Tactical Lockdown",
+        "filename": "evt_tactical_lockdown.png",
+        "relativePath": "assets/cards/events/evt_tactical_lockdown.png"
+      },
+      {
+        "cardName": "Code Amber",
+        "filename": "evt_code_amber.png",
+        "relativePath": "assets/cards/events/evt_code_amber.png"
+      },
+      {
+        "cardName": "Hidden Intel",
+        "filename": "evt_hidden_intel.png",
+        "relativePath": "assets/cards/events/evt_hidden_intel.png"
+      },
+      {
+        "cardName": "Operation Sunrise",
+        "filename": "evt_operation_sunrise.png",
+        "relativePath": "assets/cards/events/evt_operation_sunrise.png"
+      },
+      {
+        "cardName": "Blackout Protocol",
+        "filename": "evt_blackout_protocol.png",
+        "relativePath": "assets/cards/events/evt_blackout_protocol.png"
+      },
+      {
+        "cardName": "Final Extraction",
+        "filename": "evt_final_extraction.png",
+        "relativePath": "assets/cards/events/evt_final_extraction.png"
+      },
+      {
+        "cardName": "Zero Hour",
+        "filename": "evt_zero_hour.png",
+        "relativePath": "assets/cards/events/evt_zero_hour.png"
+      },
+      {
+        "cardName": "Last Light Protocol",
+        "filename": "evt_last_light_protocol.png",
+        "relativePath": "assets/cards/events/evt_last_light_protocol.png"
+      }
+    ]
+  },
+  "notes": "Generated card artwork crops, each at 385x176px. Relative paths are designed for an assets folder placed next to the game HTML.",
+  "uiAssets": {
+    "packs": [
+      "ui/packs/pack_starter.png",
+      "ui/packs/pack_standard.png",
+      "ui/packs/pack_elite.png",
+      "ui/packs/pack_blackops.png",
+      "ui/packs/pack_daily_supply_drop.png"
+    ],
+    "categories": [
+      "ui/categories/cat_operators.png",
+      "ui/categories/cat_vehicles.png",
+      "ui/categories/cat_gear.png",
+      "ui/categories/cat_locations.png",
+      "ui/categories/cat_events.png"
+    ],
+    "rarities": [
+      "ui/rarities/rarity_common.png",
+      "ui/rarities/rarity_uncommon.png",
+      "ui/rarities/rarity_rare.png",
+      "ui/rarities/rarity_epic.png",
+      "ui/rarities/rarity_legendary.png",
+      "ui/rarities/rarity_mythic.png"
+    ],
+    "resources": [
+      "ui/resources/icon_credits.png",
+      "ui/resources/icon_scrap.png",
+      "ui/resources/icon_xp.png",
+      "ui/resources/icon_ticket.png",
+      "ui/resources/icon_calendar.png"
+    ],
+    "icons": [
+      "ui/icons/icon_home.png",
+      "ui/icons/icon_shop.png",
+      "ui/icons/icon_collection.png",
+      "ui/icons/icon_crafting.png",
+      "ui/icons/icon_missions.png",
+      "ui/icons/icon_achievements.png",
+      "ui/icons/icon_profile.png",
+      "ui/icons/icon_settings.png",
+      "ui/icons/icon_back.png",
+      "ui/icons/icon_next.png",
+      "ui/icons/icon_search.png",
+      "ui/icons/icon_filter.png",
+      "ui/icons/icon_favorite.png",
+      "ui/icons/icon_lock.png",
+      "ui/icons/icon_info.png"
+    ],
+    "backgrounds": [
+      "ui/backgrounds/bg_command_center.png",
+      "ui/backgrounds/bg_pack_opening.png",
+      "ui/backgrounds/bg_collection.png",
+      "ui/backgrounds/bg_crafting.png",
+      "ui/backgrounds/bg_missions.png",
+      "ui/backgrounds/bg_profile.png",
+      "ui/backgrounds/bg_settings.png",
+      "ui/backgrounds/bg_levelup.png"
+    ]
+  }
+}
